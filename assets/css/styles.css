@@ -1,0 +1,159 @@
+
+body {
+    overflow-x: hidden!important;
+}
+
+
+/* Navbar */
+
+.navbar-brand {
+    color: #FCFCFC;
+    font-size: .8em;
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
+/* .nav-item {
+    border-bottom: 1px solid #FCFCFC;
+} */
+
+.nav-last-item {
+    border: none;
+}
+
+/* Home */
+
+#home__container {
+    margin: 1.5em;
+    min-height: 80vh;
+    position: relative;
+}
+
+#home__banner {
+    background: url("../images/background-code.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin: 2em; */
+    height: 58vh;
+    width: 100%;
+    
+}
+
+#home__banner::before {
+    background-color: rgba(0, 0, 0, 0.85);
+    content: "";
+    height: 58vh;
+    position: absolute;
+    width: 100%;
+}
+
+#home__image {
+    border-radius: 50%;
+    /* position: absolute; */
+    position: absolute;
+    /* TODO: Change left value when adapt to web (10 is fine) */
+    right: 0;
+    left: 110px;
+    top: 338px;
+    bottom: 0;
+    width: 10em;
+}
+
+#home__title {
+    font-size: 34px;
+    margin-left: 77px;
+    margin-top: 90px;
+    /* text-align: center; */
+}
+
+#home__subtitle {
+    font-size: 24px;
+    margin-left: 69px;
+    margin-top: 12px;
+    /* text-align: center; */
+}
+
+#home__about-title {
+    font-size: 30px;
+    margin-left: 80px;
+    margin-top: 60px;
+}
+
+#home__about-text {
+    margin-left: 80px;
+    margin-top: 14px;
+}
+
+hr {
+    border-top: 1px solid #379eff;
+    margin: 0px 1.5em;
+    margin-top: 50px;
+}
+
+
+/* Experience */
+
+#experience__title {
+    font-size: 30px;
+    margin-bottom: 50px;
+    margin-top: 58px;
+}
+
+.experience__image-company {
+    display: block;
+    margin: 0px auto;
+    width: 80%;
+}
+
+.experience__title-position,
+.experience__name-company,
+.experience__duration,
+.experience__description-position {
+    margin-left: 46px;
+}
+
+.experience__title-position {
+    margin-top: 18px;
+}
+
+.experience__duration {
+    margin-top: 10px;
+}
+
+.experience__description-position {
+    margin-top: 14px;
+}
+
+
+
+
+
+/* Projects */
+
+
+#projects {
+    min-height: 50vh;
+}
+
+#projects__title {
+    font-size: 30px;
+    margin-bottom: 50px;
+    margin-top: 58px;
+}
+
+.projects__image-project {
+    display: block;
+    margin: 0px auto;
+    width: 80%;
+}
+
+.projects__title-project {
+    margin-left: 46px;
+}
+
+.projects__description-project {
+    margin-left: 46px;
+    margin-top: 14px;
+}
