@@ -167,10 +167,19 @@ hr {
 
 /* Abilities */
 
+#abilities {
+    margin-bottom: 100px;
+}
+
 #abilities__title {
     font-size: 30px;
     margin-bottom: 50px;
     margin-top: 58px;
+}
+
+.abilities__container {
+    display: flex;
+    justify-content: space-around;
 }
 
 /* START Circular Progress Bar */
@@ -204,9 +213,14 @@ hr {
                 0px 12px 10px -10px rgba(0, 0, 0, 0.05);
 }
 
-#number {
+.number {
     font-weight: 600;
     color: #555;
+}
+
+.skill-name {
+    margin-top: 12px;
+    text-align: center;
 }
 
 circle {
@@ -215,7 +229,31 @@ circle {
     stroke-width: 20px;
     stroke-dasharray: 472;
     stroke-dashoffset: 472;
-    animation: anim 2s linear forwards;
+    /* animation: anim 2s linear forwards; */
+}
+
+#circle_s1 {
+    animation: anim_s1 2s linear forwards;
+}
+
+#circle_s2 {
+    animation: anim_s2 2s linear forwards;
+}
+
+#circle_s3 {
+    animation: anim_s3 2s linear forwards;
+}
+
+#circle_s4 {
+    animation: anim_s4 2s linear forwards;
+}
+
+#circle_s5 {
+    animation: anim_s5 2s linear forwards;
+}
+
+#circle_s6 {
+    animation: anim_s6 2s linear forwards;
 }
 
 svg {
@@ -227,6 +265,48 @@ svg {
 @keyframes anim {
     100% {
         stroke-dashoffset: 165;
+    }
+}
+
+@keyframes anim_s1 {
+    100% {
+        /* 80% */
+        stroke-dashoffset: 120;
+    }
+}
+
+@keyframes anim_s2 {
+    100% {
+        /* 75% */
+        stroke-dashoffset: 145;
+    }
+}
+
+@keyframes anim_s3 {
+    100% {
+        /* 70% */
+        stroke-dashoffset: 170;
+    }
+}
+
+@keyframes anim_s4 {
+    100% {
+        /* 80% */
+        stroke-dashoffset: 120;
+    }
+}
+
+@keyframes anim_s5 {
+    100% {
+        /* 90% */
+        stroke-dashoffset: 98;
+    }
+}
+
+@keyframes anim_s6 {
+    100% {
+        /* 80% */
+        stroke-dashoffset: 120;
     }
 }
 
