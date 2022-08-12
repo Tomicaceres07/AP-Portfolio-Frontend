@@ -1,27 +1,27 @@
 document.addEventListener("DOMContentLoaded", function(){
 
-    let scroll = window.pageYOffset;
+    // let scroll = window.pageYOffset;
     let nav = document.getElementById('nav');
 
-    window.addEventListener('scroll', function() {
-        let actual_scroll = window.pageYOffset;
+    // window.addEventListener('scroll', function() {
+    //     let actual_scroll = window.pageYOffset;
 
-        console.log("Scroll")
-        if (scroll >= actual_scroll) {
-            console.log("TRUE")
-            document.getElementById('nav').style.top = '0';
-            // document.getElementById('nav').classList.add("")
-            // document.getElementById('nav').classList.remove("")
-        }else{
-            console.log("FALSE")
-            document.getElementById('nav').style.top = '-100px';
-            // document.getElementById('nav').classList.add("")
-            // document.getElementById('nav').classList.remove("")
-            // $("#toggle").attr("aria-expanded","false");
-        }
+    //     console.log("Scroll")
+    //     if (scroll >= actual_scroll) {
+    //         console.log("TRUE")
+    //         document.getElementById('nav').style.top = '0';
+    //         // document.getElementById('nav').classList.add("")
+    //         // document.getElementById('nav').classList.remove("")
+    //     }else{
+    //         console.log("FALSE")
+    //         document.getElementById('nav').style.top = '-100px';
+    //         // document.getElementById('nav').classList.add("")
+    //         // document.getElementById('nav').classList.remove("")
+    //         // $("#toggle").attr("aria-expanded","false");
+    //     }
 
-        scroll = actual_scroll;
-    });
+    //     scroll = actual_scroll;
+    // });
 
     
     // HTML, CSS, JS
