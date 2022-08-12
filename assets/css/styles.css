@@ -6,6 +6,7 @@ body {
 
 /* Navbar */
 
+
 .navbar-brand {
     color: #FCFCFC;
     font-size: .8em;
@@ -23,7 +24,12 @@ body {
     border: none;
 }
 
+
 /* Home */
+
+#home {
+    margin-bottom: 50px;
+}
 
 #home__container {
     margin: 1.5em;
@@ -89,16 +95,19 @@ body {
 hr {
     border-top: 1px solid #379eff;
     margin: 0px 1.5em;
-    margin-top: 50px;
 }
 
 
 /* Experience */
 
+#experience {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
 #experience__title {
     font-size: 30px;
     margin-bottom: 50px;
-    margin-top: 58px;
 }
 
 .experience__image-company {
@@ -128,10 +137,15 @@ hr {
 
 /* Education */
 
+
+#education {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
 #education__title {
     font-size: 30px;
     margin-bottom: 50px;
-    margin-top: 58px;
 }
 
 .education__image-logo {
@@ -167,14 +181,15 @@ hr {
 
 /* Abilities */
 
+
 #abilities {
+    margin-top: 50px;
     margin-bottom: 100px;
 }
 
 #abilities__title {
     font-size: 30px;
     margin-bottom: 50px;
-    margin-top: 58px;
 }
 
 .abilities__container {
@@ -319,12 +334,13 @@ svg {
 
 #projects {
     min-height: 50vh;
+    margin-top: 50px;
+    margin-bottom: 100px;
 }
 
 #projects__title {
     font-size: 30px;
     margin-bottom: 50px;
-    margin-top: 58px;
 }
 
 .projects__image-project {
@@ -340,4 +356,28 @@ svg {
 .projects__description-project {
     margin-left: 46px;
     margin-top: 14px;
+}
+
+
+/* Footer */;
+
+#footer {
+    height: 150px;
+}
+
+#footer__container-text {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+#arrow_up {
+    color: white;
+    font-size: 50px;
+}
+
+#arrow_up:hover {
+    color: rgb(244, 244, 244);
+    font-size: 50px;
 }
